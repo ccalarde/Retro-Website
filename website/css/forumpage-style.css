@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "JosefinSans-VariableFont_wght";
+    src: url("../font/JosefinSans-VariableFont_wght.ttf");
+  }
+
+  @font-face {
+    font-family: "Micro5-Regular";
+    src: url("../font/Micro5-Regular.ttf");
+  }
+
+
+.logo{
+    position:absolute;
+    display:inline-block;
+    color:red;
+    width: 200px;
+}
+
+.header{
+    position:absolute;
+    background-color: rgb(197, 177, 216);
+    display:block;
+    top:-1px;
+    left:-1px;
+    width:110%;
+    height:22%;
+}
+
+.logo-title{
+    position:absolute;
+    left: 230px;
+    top: 33px;
+    display:inline-block;
+    color:white;
+    font-size: 60px;
+    font-family: Micro5-Regular;
+}
+
+
+.login{
+    position:absolute;
+    display:inline-block;
+    right: 63px;
+    font-family: "JosefinSans-VariableFont_wght";
+
+}
+
+.password{
+    position:absolute;
+    top:40px;
+    right:10px;
+    font-family: "JosefinSans-VariableFont_wght";
+
+}
+
+button{
+    font-family: "JosefinSans-VariableFont_wght";
+    color:rgb(255, 255, 255);
+    background-color: black;
+}
+
+button:hover{
+    background-color:rgb(183, 140, 211);
+}
+.main-buttons{
+    margin-left:45%;
+    display:inline-block;
+}
+.sign-up{
+    text-decoration:none;
+    position:absolute;
+    top:-31px;
+    right:-15px;
+}
+
+a{
+    text-decoration:none;
+}
+
+.forumpage{
+    margin-left: 20%;
+    margin-right: 20%;
+    display:block;
+    height:100%;
+    font-family:"JosefinSans-VariableFont_wght";
+}
+
+.button-link{
+    text-decoration:none;
+  }

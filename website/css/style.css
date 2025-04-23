@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "JosefinSans-VariableFont_wght";
+    src: url("../font/JosefinSans-VariableFont_wght.ttf");
+  }
+
+  @font-face {
+    font-family: "Micro5-Regular";
+    src: url("../font/Micro5-Regular.ttf");
+  }
+
+.header{
+    position:absolute;
+    background-color: rgb(197, 177, 216);
+    display:block;
+    top:-1px;
+    left:-1px;
+    width:110%;
+    height:22%;
+}
+
+.logo{
+    position:absolute;
+    display:inline-block;
+    color:red;
+    width: 200px;
+}
+
+.logo-title{
+    position:absolute;
+    left: 230px;
+    top: 33px;
+    display:inline-block;
+    color:white;
+    font-size: 60px;
+    font-family: Micro5-Regular;
+}
+
+h1{
+    font-family: "JosefinSans-VariableFont_wght";
+}
+
+h3{
+    font-family: "JosefinSans-VariableFont_wght";
+}
+
+p{
+    font-family: "JosefinSans-VariableFont_wght";
+}
+
+
+button{
+    font-family: "JosefinSans-VariableFont_wght";
+    color:rgb(255, 255, 255);
+    background-color: black;
+}
+
+button:hover{
+    background-color:rgb(183, 140, 211);
+}
+.login{
+    position:absolute;
+    display:inline-block;
+    right: 73px;
+    font-family: "JosefinSans-VariableFont_wght";
+}
+
+.password{
+    position:absolute;
+    top:40px;
+    right:20px;
+    font-family: "JosefinSans-VariableFont_wght";
+}
+.main-buttons{
+    position:absolute;
+    margin-left:45%;
+    display:inline-block;
+    text-decoration:none;
+    
+}
+
+
+.sign-up{
+    text-decoration:none;
+    position:absolute;
+    top:-31px;
+    right:-15px;
+}
+
+a{
+    text-decoration:none;
+}
+.news{
+    margin-left: 20%;
+    margin-right: 20%;
+    display:block;
+    height:100%
+}
+
+.button-link{
+    text-decoration:none;
+  }
